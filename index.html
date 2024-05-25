@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="shortcut icon" href="images/clouds.png" >
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>weather-app</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <div class="card">
+            <div class="search">
+                  <input type="text" id="inp-name" placeholder="city name" spellcheck="false"/>
+                  <button id="btn" ><img src="images/search.png"></button>
+            </div>
+
+            <div class="error">
+                  <p id="p">Sorry, the city or state name appears
+                   to be incorrect or misspelled,
+                    Try again.</p>
+            </div>
+
+            <div id="weather">
+                  <img src="images/rain.png" id="icon" >
+                  <h1 id="temp">22°C</h1>
+                  <h2 id="city-name">new York</h2>
+                  <div class="detaile">
+                        <div class="col" id="c1">
+                              <img src="images/humidity.png" alt="">
+                              <div>
+                                    <p id="humidity">50%</p>
+                                    
+                                          <p>humidity</p>
+                                   
+                              </div>
+                        </div>
+
+                        <div class="col" id="c2">
+                              <img src="images/wind.png">
+                              <div>
+                                    <p id="wind">15 km/h</p>
+                                    <p>
+                                          <p>wind speed</p>
+                                    </p>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      
+</body>
+<script src="script.js"></script>
+</html>

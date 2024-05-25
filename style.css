@@ -1,0 +1,123 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body{
+      background-color: #222;
+      height: 100%;
+}
+
+.card{
+      width: 90%;
+      max-width: 470px;
+      background-color: #005596de;
+      /* background-color: #269fff; */
+      color: #FFF;
+      margin: 100px auto 0px;
+      border-radius: 20px;
+      padding: 40px 35px;
+      text-align: center;
+}
+
+.search{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.search input{
+      border: 0;
+      outline: 0;
+      background-color: #ebfffe;
+      color: #555;
+      padding: 10px 15px;
+      height: 60px;
+      border-radius: 20px;
+      flex: 1;
+      margin-right: 16px;
+      font-size: 18px;
+
+}
+
+.search button{
+      border: 0;
+      outline: 0;
+      background-color: #ebfffe;
+      border-radius:50%;
+      width:60px;
+      height:60px;
+      cursor:pointer;
+}
+
+.search button img{
+      width:20px;
+}
+
+#weather h1{
+      font-size: 80px;
+      font-weight: 400;
+
+}
+
+#weather h2{
+      font-size: 55px;
+      font-weight: 600;
+      margin-top: -10px;
+      color: #fff;
+}
+
+.detaile{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      padding: 0 20px;
+      margin-top: 50px;
+
+}
+
+.col{
+      display: flex;
+      align-content: center;
+      text-align: left;
+}
+
+.col img{
+      /* font-size: 26px; */
+      width: 40px;
+      margin-right: 10px;
+}
+
+.col div{
+      font-size: 20px;
+}
+
+.humidity , .wind{
+      font-size: 26px;
+}
+
+#weather{
+      display: none;
+}
+
+.error{
+      text-align: left;
+      margin-top: 10px;
+      color: red;
+      font-size: 20px;
+      font-weight: 900;
+      display: none;
+}
+
+/* @media only screen and (max-width: 480px) {
+     .detaile #c1{
+      /* padding-left: 30px; */
+      /* padding-left: -60px; */
+     /* } */
+     /* .detaile #c2{ */
+      /* padding-left: 30px; */
+      /* padding-right: -600px; */
+     /* } */
+
+/* } */
